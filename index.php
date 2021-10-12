@@ -10,7 +10,7 @@ require_once "config.php";
 // Routeur
 if(!isset($_GET['pg'])){
     // chargement de l'accueil
-    echo "homepage";
+    include_once "import/homepage.php";
 }else{
     // pas sur l'accueil
     switch($_GET['pg']){
