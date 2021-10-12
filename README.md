@@ -17,5 +17,12 @@ Créez des branches par grandes étapes, et surtout faites régulièrement des s
     ...
     git push origin NomDeMaBranche
 
+Puis effectuer un pull request sur la `main` sur github, ensuite le valider et retourner sur la `main` en local et faire
+
+    git checkout main
+    git pull origin main
+
+et puis création d'une nouvelle branche et ainsi de suite....
+
 ## Etape 3
 Création du contrôleur frontal nommé `index.php`
