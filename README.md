@@ -29,3 +29,6 @@ Création du contrôleur frontal nommé `index.php`
 
 ## Etape 4
 Création d'un `.gitignore` pour rendre invisible `config.php` avant même sa création !
+
+## Etape 5
+Création du véritable config.php
