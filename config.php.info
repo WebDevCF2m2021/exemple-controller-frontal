@@ -10,5 +10,5 @@ define("DB_USER","root");
 define("DB_PWD","");
 define("DB_CHARSET","utf8");
 
-#mail
+# mail
 define("MY_EMAIL","lulu@lulu.com");

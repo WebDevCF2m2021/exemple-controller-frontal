@@ -8,6 +8,8 @@ Clonez celui-ci sur votre machine.
 
 Entrez dans le référenciel sur la branche par défaut : `main`
 
+Créez un virtualhost ou mettez le dossier à un endroit accessible
+
 ## Etape 2
 Créez des branches par grandes étapes, et surtout faites régulièrement des sauvegardes (commit)
 
@@ -31,4 +33,14 @@ Création du contrôleur frontal nommé `index.php`
 Création d'un `.gitignore` pour rendre invisible `config.php` avant même sa création !
 
 ## Etape 5
-Création du véritable config.php
+Création du véritable config.php, il ne sera mis sur github grâce au .gitignore
+
+On peut créer une copie de `config.php` de la quelle on retirerait les informations sensibles : `config.php.info`
+
+## Etape 6 
+
+On importe le fichier `config.php` dans le contrôleur frontal `index.php`
+
+    require_once "config.php";
+
+    
