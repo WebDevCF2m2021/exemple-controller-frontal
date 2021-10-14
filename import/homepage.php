@@ -11,8 +11,10 @@
 </head>
 <body>
     <h1>Accueil</h1>
-    <nav>
-        <a href="./">Accueil</a> | <a href="./?pg=cv">CV</a> | <a href="./?pg=tuto">Tutoriels</a>
-    </nav>
+    <?php
+    // on peut importer le menu en PHP sans passer par index.php
+    include "menu.php";
+    ?>
+    <img src="img/quoi.jpg" alt="" />
 </body>
 </html>
