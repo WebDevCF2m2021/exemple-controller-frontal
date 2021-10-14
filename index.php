@@ -22,7 +22,8 @@ if(!isset($_GET['pg'])){
             include_once "import/curriculum.php";
             break;
         case "tuto":
-            echo "tuto lulu";
+            // import de la page des tutod
+            include_once "import/tutoriels.php";
             break;
         default:    
             // chargement de l'accueil
