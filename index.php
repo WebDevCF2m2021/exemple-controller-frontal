@@ -21,5 +21,8 @@ if(!isset($_GET['pg'])){
         case "tuto":
             echo "tuto lulu";
             break;
+        default:    
+            // chargement de l'accueil
+            include_once "import/homepage.php";
     }
 }

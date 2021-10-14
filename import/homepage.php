@@ -11,5 +11,8 @@
 </head>
 <body>
     <h1>Accueil</h1>
+    <nav>
+        <a href="./">Accueil</a> | <a href="./?pg=cv">CV</a> | <a href="./?pg=tuto">Tutoriels</a>
+    </nav>
 </body>
 </html>
